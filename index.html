@@ -361,12 +361,12 @@
       </div>
     </section>
 
-    <!-- 5 · ЗАКАЗ: финал держит реплику, футер внутри сцены -->
+    <!-- 5 · ЗАКАЗ: финал виден сразу при входе (иначе на широком экране целый кадр пустого фона), футер внутри сцены -->
     <section data-v-act="pin" data-v-span="1.4" id="zakaz" aria-label="Заказать">
       <div data-v-stage>
         <div class="close">
           <div class="close__inner">
-            <div data-v-cue="0.04">
+            <div data-v-cue="0 1 0 0">
               <h2 class="v-display pd pd--xl">Закажите заранее – заберёте без очереди</h2>
               <p>Напишите, что взять и к какому времени, или забронируйте столик: ответим и всё подтвердим.</p>
               <div class="close__btns">
@@ -374,7 +374,7 @@
                 <a class="v-btn v-btn--ghost" href="tel:+79001234567">Позвонить</a>
               </div>
             </div>
-            <div class="close__meta" data-v-cue="0.1">
+            <div class="close__meta" data-v-cue="0 1 0 0">
               <a class="close__tel" href="tel:+79001234567">+7 900 123-45-67</a>
               <span><b>Тополиная, 12</b>, Казань</span>
               <span>Пн–пт 7:30–21:00, сб–вс 9:00–21:00</span>
